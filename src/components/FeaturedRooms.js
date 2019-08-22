@@ -17,6 +17,11 @@ class FeaturedRooms extends Component {
 			<div className="featured-rooms">
 				<Title title="featured rooms" />
 				<div className="featured-rooms-center">
+					{rooms.length === 0 && (
+						<div className="empty-search">
+							<h3>unfortunately no featured rooms available</h3>
+						</div>
+					)}
 					{loading ? <Loading /> : rooms}
 				</div>
 			</div>

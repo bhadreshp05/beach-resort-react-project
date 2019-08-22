@@ -5,6 +5,7 @@ import defaultImg from '../images/room-1.jpeg';
 
 const Room = ({ room }) => {
 	const { name, slug, images, price } = room;
+
 	return (
 		<article className="room">
 			<div className="img-container">
