@@ -9,7 +9,7 @@ const getUnique = (rooms, value) => {
 
 const RoomsFilter = ({ rooms }) => {
 	const context = useContext(RoomContext);
-	console.log('f', context);
+
 	const {
 		handleChange,
 		type,
